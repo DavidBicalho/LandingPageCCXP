@@ -1,0 +1,121 @@
+body {
+    background-image: url(/assets/Interface=Desktop\,\ Theme=Dark\ mode.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    font-size: 100%;
+  
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.cabecalho-a{
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+
+.cabecalho-reviva{
+    margin-top: 50px;
+    margin: 10px;
+}
+
+
+  .esquerdo {
+    float: left;
+  }
+  
+  .direito {
+    float: right;
+  }
+
+  .texto{
+    position: absolute;
+    width: 678px;
+    height: 350px;
+    left: 64px;
+    top: 200px;
+    color: #FFFFFF;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+color: #FFFFFF;
+
+  }
+  .retangulo{
+    width: 805px;
+    height: 372px;
+    left: 320px;
+    top: 200px;
+    border-radius: 5px;
+  }
+
+  .dias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 204px;
+    height: 204px;
+    left: 320px;
+    top: 600px;
+
+  }
+  
+
+ .timer{
+             
+        color: #F3C61F;
+        display: flex;
+        font-size: 20px;
+        position:absolute;
+        width: 400px;
+        left: 945px;
+        top: 550px;
+        justify-content: space-evenly;
+         }
+
+
+.anuncio{
+    position: absolute;
+    width: 741px;
+    height: 36px;
+    left: 933px;
+    top: 630px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #E33881;
+
+}
+
+.a {
+    color: #F3C61F;
+}
