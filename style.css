@@ -1,39 +1,64 @@
 body {
-    background-image: url(./assets/Interface=Desktop\,\ Theme=Dark\ mode.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    font-size: 100%;
-  
-
+  background-image: url(./assets/Interface=Desktop\,\ Theme=Dark\ mode.jpg);
+  background-repeat: no-repeat;
+  background-position: top/center;
+  background-size: cover;
+  font-size: 16px;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-.cabecalho{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 5px;
+a {
+  color: orange;
+}
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+
+button {
+  background-color: #514988;
+  width: 350px;
+  height: 90px;
+  border: none;
+  box-shadow: 4px 5px 4px black;
+  border-radius: 5px;
+  font-family: "nunito", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #ffffff;
+
+  position:relative;
+  width: 400px;
+  left: 630px;
+  top: 85px;
+}
+button:hover {
+  background: #514988;
+  cursor: pointer;
+  color: #f3c61f;
 }
 
-.cabecalho-a{
-    display: flex;
-    gap: 30px;
-    color: white;
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
 }
 
-.cabecalho-reviva{
-    margin-top: 50px;
-    margin: 10px;
+.cabecalho-a {
+  display: flex;
+  gap: 30px;
+  color: white;
 }
 
+.cabecalho-reviva {
+  margin-top: 50px;
+  margin: 10px;
+}
 
   .esquerdo {
     float: left;
@@ -43,79 +68,73 @@ body {
     float: right;
   }
 
-  .texto{
-    position: absolute;
-    width: 678px;
-    height: 350px;
-    left: 64px;
-    top: 200px;
-    color: #FFFFFF;
+.texto {
+  position: absolute;
+  width: 678px;
+  height: 350px;
+  left: 64px;
+  top: 200px;
+  color: #ffffff;
 
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 29px;
-    line-height: 35px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
+}
+.retangulo {
+  width: 805px;
+  height: 372px;
+  left: 320px;
+  top: 200px;
+  border-radius: 5px;
+}
 
-  }
-  .retangulo{
-    width: 805px;
-    height: 372px;
-    left: 320px;
-    top: 200px;
-    border-radius: 5px;
-  }
+.dias {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  width: 204px;
+  height: 204px;
+  left: 320px;
+  top: 600px;
+}
 
-  .dias{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    position: absolute;
-    width: 204px;
-    height: 204px;
-    left: 320px;
-    top: 600px;
+.timer {
+  color: #f3c61f;
+  display: flex;
+  font-size: 20px;
+  position: relative;
+  width: 400px;
+  left: 450px;
+  top: 450px;
+  justify-content: space-evenly;
+}
 
-  }
-  
-
- .timer{
-             
-        color: #F3C61F;
-        display: flex;
-        font-size: 20px;
-        position:absolute;
-        width: 400px;
-        left: 945px;
-        top: 550px;
-        justify-content: space-evenly;
-         }
-
-
-.anuncio{
-    position: absolute;
-    width: 741px;
-    height: 36px;
-    left: 933px;
-    top: 630px;
-    font-family: 'Verdana';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #E33881;
-
+.anuncio {
+  position: relative;
+  width: 741px;
+  height: 36px;
+  left: 1250px;
+  top: 10px;
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #e33881;
 }
 
 .a {
-    color: #F3C61F;
+  color: #f3c61f;
 }
